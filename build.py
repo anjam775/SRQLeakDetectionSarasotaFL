@@ -338,6 +338,22 @@ def hero(p, chips=None, inner_lead=True, kicker=None):
 
 CHIPS = ["Sarasota & Manatee counties", "Service lines, slabs, sewers & pools", "Homes, condos & businesses", "Independent local providers"]
 
+
+from figures import FIGS
+def add_figures(url, body):
+    for heading, name, alt, cap in FIGS.get(url, []):
+        m = re.search(r'<h2[^>]*>' + re.escape(esc(heading)) + r'</h2>', body)
+        if not m:
+            raise SystemExit(f"figure heading not found on {url}: {heading}")
+        nxt = body.find("<h2", m.end())
+        nxt = len(body) if nxt < 0 else nxt
+        src = f"/assets/img/pages/{name}"
+        fig = (f'<figure class="fig"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" '
+               f'sizes="(max-width: 900px) 100vw, 860px" width="1200" height="675" loading="lazy" decoding="async" '
+               f'alt="{esc(alt)}"><figcaption>{esc(cap)}</figcaption></figure>')
+        body = body[:nxt] + fig + body[nxt:]
+    return body
+
 def render(p):
     t = p["type"]
     raw = p.get("body", "").replace("{PH}", PH)
@@ -348,6 +364,7 @@ def render(p):
     body = body.replace("<p>{{SERVICES}}</p>", svc_cards([s["slug"] for s in SERVICES]))
     body = body.replace("<p>{{LOCATIONS}}</p>", loc_cards([l["slug"] for l in LOCATIONS]))
     body = re.sub(r"<p>\{\{POSTS:([^}]+)\}\}</p>", lambda m: post_cards(m.group(1).split(",")), body)
+    body = add_figures(p["url"], body)
     schema = org_nodes()
     tail = ""
     if t == "home":

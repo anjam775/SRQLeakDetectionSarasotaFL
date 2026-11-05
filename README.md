@@ -19,7 +19,7 @@ Static lead-gen site for leak detection and water service line repair in Sarasot
 
 ```bash
 pip install markdown pillow cairosvg
-python3 assets.py && python3 build.py && python3 audit.py
+python3 illustrations.py && python3 assets.py && python3 build.py && python3 audit.py
 ```
 
 Commit the updated `dist/` after every rebuild.
