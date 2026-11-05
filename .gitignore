@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+qa/
+preview/
+audit.json
+.DS_Store

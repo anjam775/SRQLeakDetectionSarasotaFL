@@ -1,0 +1,12 @@
+# Cloudflare Pages serves folder/index.html at /folder/ and adds the trailing slash itself.
+# Legacy / alternate paths
+/home                       /                       301
+/service/*                  /services/:splat        301
+/location/*                 /locations/:splat       301
+/areas/*                    /locations/:splat       301
+/posts/*                    /blog/:splat            301
+/privacy                    /privacy-policy/        301
+/terms-of-service           /terms/                 301
+/services/slab-leak-detection/       /services/slab-leak-repair/            301
+/services/water-line-repair/         /services/water-service-line-repair/   301
+/services/main-water-line-replacement/ /services/water-line-replacement/    301
