@@ -97,3 +97,4 @@ dl.gl-list dd{margin:4px 0 0}
 .fig{margin:26px 0 30px;max-width:860px}
 .fig img{width:100%;aspect-ratio:1200/675;border-radius:var(--r);border:1px solid var(--line);background:var(--aqua)}
 .fig figcaption{font-size:.92rem;color:var(--muted);margin-top:8px;max-width:78ch}
+.fig .credit{display:block;font-size:.82rem;margin-top:2px}

@@ -341,7 +341,7 @@ CHIPS = ["Sarasota & Manatee counties", "Service lines, slabs, sewers & pools", 
 
 from figures import FIGS
 def add_figures(url, body):
-    for heading, name, alt, cap in FIGS.get(url, []):
+    for heading, name, alt, cap, (who, link) in FIGS.get(url, []):
         m = re.search(r'<h2[^>]*>' + re.escape(esc(heading)) + r'</h2>', body)
         if not m:
             raise SystemExit(f"figure heading not found on {url}: {heading}")
@@ -350,7 +350,7 @@ def add_figures(url, body):
         src = f"/assets/img/pages/{name}"
         fig = (f'<figure class="fig"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" '
                f'sizes="(max-width: 900px) 100vw, 860px" width="1200" height="675" loading="lazy" decoding="async" '
-               f'alt="{esc(alt)}"><figcaption>{esc(cap)}</figcaption></figure>')
+               f'alt="{esc(alt)}"><figcaption>{esc(cap)} <span class="credit">Photo: <a href="{link}" target="_blank" rel="noopener">{esc(who)}</a> / Pexels</span></figcaption></figure>')
         body = body[:nxt] + fig + body[nxt:]
     return body
 

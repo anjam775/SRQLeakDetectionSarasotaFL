@@ -41,10 +41,10 @@ All images are generated branded graphics (no stock photos, no people).
 | assets/img/logo-512.png | Schema logo | — | Generated |
 | assets/img/og-default.jpg (1200×630) | OG/Twitter image for all non-post pages | — (meta only) | Generated |
 | assets/img/blog/<slug>.webp + .jpg (1200×630) | Post featured image (LCP, fetchpriority=high) + OG | "<Post H1> guide graphic" | Generated |
-| assets/img/pages/<name>.webp + -600.webp (1200×675) | 18 in-content illustrations: 2 on the home page, 1 per service page, 1 per location page (lazy-loaded, srcset, captioned) | Descriptive alt per image (content/figures.py) | Original drawings from illustrations.py; SVG sources in illustrations/ |
+| assets/img/pages/<name>.webp + -600.webp (1200×675) | 19 in-content photos: 3 on the home page, 1 per service page, 1 per location page (lazy-loaded, srcset, captioned with photographer credit) | Descriptive alt per photo (content/figures.py) | Free Pexels photos (pexels.com/license), cropped to 16:9 and converted to WebP by photos.py |
 | assets/img/blog/<slug>-600.webp (600×315) | Blog cards (lazy) | "<Post H1> guide graphic" | Generated |
 
-Rebuild the illustrations with `python3 illustrations.py` before `assets.py`/`build.py` if you edit a scene.
+To change a photo, edit its Pexels ID in photos.py and its alt, caption and credit in content/figures.py, then run `python3 photos.py` before `assets.py`/`build.py`.
 
 Optional later: real job photos (WebP, ≤200 KB, with width/height) for service pages once you have them.
 
