@@ -14,6 +14,9 @@ TEL = SITE["phone_tel"]
 PH = SITE["phone_display"]
 NAME = SITE["name"]
 TODAY = SITE["today"]
+import datetime as _dt
+def human(d):
+    x = _dt.date.fromisoformat(d); return f"{x:%B} {x.day}, {x.year}"
 
 SVC = {s["slug"]: s for s in SERVICES}
 LOC = {l["slug"]: l for l in LOCATIONS}
@@ -21,13 +24,13 @@ POST = {p["slug"]: p for p in POSTS}
 
 # ---------------------------------------------------------------- loading pages
 PAGES = []  # list of dicts
-for mod in ["home", "services_a", "services_b", "locations", "posts_a", "posts_b", "posts_c", "support"]:
+for mod in ["home", "services_a", "services_b", "locations", "posts_a", "posts_b", "posts_c", "posts_d", "posts_e", "support"]:
     m = importlib.import_module(mod)
     PAGES.extend(m.PAGES)
 BY_URL = {p["url"]: p for p in PAGES}
 for p in PAGES:
     if p["type"] == "post":
-        POST[p["slug"]].update({"title": p["h1"], "card": p["card"], "url": p["url"], "date": p.get("date", TODAY)})
+        POST[p["slug"]].update({"title": p["h1"], "card": p["card"], "url": p["url"], "date": p.get("date", SITE["launch"])})
 
 # ---------------------------------------------------------------- helpers
 def esc(s):
@@ -302,7 +305,7 @@ def head_html(p, robots="index,follow"):
     og_type = "article" if p["type"] == "post" else "website"
     extra = ""
     if p["type"] == "post":
-        extra = f'<meta property="article:published_time" content="{p.get("date", TODAY)}"><meta property="article:modified_time" content="{TODAY}">'
+        extra = f'<meta property="article:published_time" content="{p.get("date", SITE["launch"])}"><meta property="article:modified_time" content="{TODAY}">'
     canon = U + p["url"] if p["url"] != "/404.html" else U + "/404.html"
     preload = p.get("preload", "")
     return f'''<!doctype html><html lang="en-US"><head><meta charset="utf-8">
@@ -386,14 +389,14 @@ def render(p):
         schema += [webpage_node(p), breadcrumb_node(p["url"], p["trail"]), faq_node(p["url"], p["faqs"]),
                    {"@type": "BlogPosting", "@id": U + p["url"] + "#post", "headline": p["h1"], "description": p["meta"],
                     "image": {"@type": "ImageObject", "url": U + img + ".jpg", "width": 1200, "height": 630},
-                    "datePublished": p.get("date", TODAY), "dateModified": TODAY, "inLanguage": "en-US",
+                    "datePublished": p.get("date", SITE["launch"]), "dateModified": TODAY, "inLanguage": "en-US",
                     "author": {"@type": "Organization", "name": SITE["editorial"], "url": U + "/editorial-policy/"},
                     "publisher": {"@id": U + "/#org"}, "mainEntityOfPage": {"@id": U + p["url"] + "#webpage"},
                     "wordCount": 0, "articleSection": post["cat"],
                     "citation": [SRC[k][1] for k in p["sources"]]}]
         mins = "{mins}"
         head = f'''<header class="post-hd wrap narrow">{crumbs_html(p["trail"])}<p class="kicker">{esc(post["cat"])}</p><h1>{esc(p["h1"])}</h1>
-<p class="byline">By <a href="/editorial-policy/">{SITE["editorial"]}</a> · Published <time datetime="{p.get("date", TODAY)}">{SITE["today_human"]}</time> · Updated <time datetime="{TODAY}">{SITE["today_human"]}</time> · {mins} min read</p>
+<p class="byline">By <a href="/editorial-policy/">{SITE["editorial"]}</a> · Published <time datetime="{p.get("date", SITE["launch"])}">{human(p.get("date", SITE["launch"]))}</time> · Updated <time datetime="{TODAY}">{SITE["today_human"]}</time> · {mins} min read</p>
 <img class="feat" src="{img}.webp" width="1200" height="630" alt="{attr(p["h1"])} guide graphic" fetchpriority="high" decoding="async"></header>'''
         author = (f'<aside class="author"><h2>About this article</h2><p>Written by {SITE["editorial"]} and checked against the sources listed above. '
                   f'Last updated {SITE["today_human"]}. General information, not legal, insurance or professional advice. '

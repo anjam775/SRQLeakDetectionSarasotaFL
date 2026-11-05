@@ -12,8 +12,8 @@ SITE = {
     "state_full": "Florida",
     "county": "Sarasota County",
     "lang": "en-US",
-    "today": "2026-11-04",
-    "today_human": "November 4, 2026",
+    "today": "2026-11-05", "launch": "2026-11-04",
+    "today_human": "November 5, 2026",
     "editorial": "SRQ Leak Pros Editorial",
     "theme": "#0B2545",
     # Owner asked for social icons with default platform links (to be replaced later).
@@ -80,6 +80,18 @@ SRC = {
     "wiki_pex": ("Wikipedia: Cross-linked polyethylene (PEX)", "https://en.wikipedia.org/wiki/Cross-linked_polyethylene"),
     "wiki_cpvc": ("Wikipedia: Chlorinated polyvinyl chloride (CPVC)", "https://en.wikipedia.org/wiki/Chlorinated_polyvinyl_chloride"),
     "wiki_tracer": ("Wikipedia: Tracer-gas leak testing", "https://en.wikipedia.org/wiki/Tracer-gas_leak_testing"),
+    "fbc_305": ("Florida Building Code, Plumbing supplement (2007), Section 305.6: water service pipe not less than 12 inches deep", "https://www.floridabuilding.org/fbc/thecode/2007_Supplememts/2007_supplement_Plumbing.pdf"),
+    "fs_556": ("Florida Statutes § 556.108, Exemptions (homeowner digging to 10 inches)", "https://m.flsenate.gov/statutes/556.108"),
+    "fs_634": ("Florida Statutes § 634.301, Home warranty definitions", "https://florida.public.law/statutes/fla._stat._634.301"),
+    "consumer_warranty": ("ConsumerAffairs: Do home warranties cover slab leaks?", "https://www.consumeraffairs.com/homeowners/do-home-warranties-cover-slab-leaks.html"),
+    "epa_sprinkler": ("U.S. EPA WaterSense: Sprinkler Spruce-Up", "https://www.epa.gov/node/242461"),
+    "city_phase3": ("City of Sarasota: SWFWMD Modified Phase III water shortage restrictions (updated Sept. 23, 2026)", "https://www.sarasotafl.gov/News-articles/SWFWMD-Modified-Phase-III-Extreme-Water-Shortage"),
+    "clickorlando_cpvc": ("WKMG ClickOrlando, Feb. 10, 2015: Plumbers warn of CPVC piping problems", "https://www.clickorlando.com/news/2015/02/11/plumbers-warn-of-cpvc-piping-problems/"),
+    "pnnl_pressure": ("PNNL Building America Solution Center: Service water pressure", "https://basc.pnnl.gov/resource-guides/service-water-pressure"),
+    "scottsdale_pool": ("City of Scottsdale Water: Outdoor water efficiency checks (pool bucket test)", "https://scottsdaleaz.gov/water/water-conservation/homeowners"),
+    "angi_repipe": ("Angi: Does repiping a house add value? (updated Jul. 9, 2026)", "https://www.angi.com/articles/does-repiping-a-house-add-value.htm"),
+    "angi_repair": ("Angi: Main water line repair cost (updated Dec. 2, 2024)", "https://match.angi.com/cost/plumbing/repair-a-water-main"),
+    "angi_pool": ("Angi: How to find a leak in a pool (updated Feb. 8, 2024)", "https://angi.com/articles/how-to-find-a-leak-in-a-pool.htm"),
 }
 
 # ---------- Services (8) ----------
@@ -154,7 +166,7 @@ LOCATIONS = [
      "card": "High-value island homes and towers along Gulf of Mexico Drive."},
 ]
 
-# ---------- Blog posts (12) ----------
+# ---------- Blog posts (24) ----------
 # category, slug, money page it supports, related posts (2)
 POSTS = [
     {"slug": "who-is-responsible-for-water-line-from-street-to-house", "cat": "Service Lines",
@@ -181,6 +193,30 @@ POSTS = [
      "money": "/services/repiping/", "related": ["polybutylene-pipes-florida", "what-is-a-slab-leak"]},
     {"slug": "how-to-shut-off-water-to-house", "cat": "Emergencies",
      "money": "/services/emergency-water-line-repair/", "related": ["signs-of-water-service-line-leak", "who-is-responsible-for-water-line-from-street-to-house"]},
+    {"slug": "how-deep-are-water-lines-buried", "cat": "Service Lines",
+     "money": "/services/water-line-replacement/", "related": ["how-to-locate-underground-water-lines", "who-is-responsible-for-water-line-from-street-to-house"]},
+    {"slug": "how-to-locate-underground-water-lines", "cat": "Finding Leaks",
+     "money": "/services/underground-leak-detection/", "related": ["how-deep-are-water-lines-buried", "how-to-find-water-leak-underground"]},
+    {"slug": "repipe-cost", "cat": "Costs & Insurance",
+     "money": "/services/repiping/", "related": ["galvanized-pipe-replacement", "polybutylene-pipes-florida"]},
+    {"slug": "water-meter-leak", "cat": "Service Lines",
+     "money": "/services/water-service-line-repair/", "related": ["why-is-my-water-bill-so-high", "signs-of-water-service-line-leak"]},
+    {"slug": "water-leak-under-driveway", "cat": "Finding Leaks",
+     "money": "/services/underground-leak-detection/", "related": ["main-water-line-repair-cost", "how-to-find-water-leak-underground"]},
+    {"slug": "does-home-warranty-cover-slab-leaks", "cat": "Costs & Insurance",
+     "money": "/services/slab-leak-repair/", "related": ["does-insurance-cover-slab-leaks", "slab-leak-repair-cost"]},
+    {"slug": "irrigation-leak", "cat": "Finding Leaks",
+     "money": "/services/underground-leak-detection/", "related": ["water-meter-leak", "why-is-my-water-bill-so-high"]},
+    {"slug": "main-water-line-repair-cost", "cat": "Costs & Insurance",
+     "money": "/services/water-service-line-repair/", "related": ["water-line-replacement-cost", "water-leak-under-driveway"]},
+    {"slug": "why-is-my-water-pressure-low", "cat": "Pipes & Repairs",
+     "money": "/services/water-service-line-repair/", "related": ["galvanized-pipe-replacement", "water-meter-leak"]},
+    {"slug": "galvanized-pipe-replacement", "cat": "Pipes & Repairs",
+     "money": "/services/repiping/", "related": ["repipe-cost", "why-is-my-water-pressure-low"]},
+    {"slug": "cpvc-pipe-problems", "cat": "Pipes & Repairs",
+     "money": "/services/repiping/", "related": ["repipe-cost", "polybutylene-pipes-florida"]},
+    {"slug": "pool-bucket-test", "cat": "Finding Leaks",
+     "money": "/services/pool-leak-detection/", "related": ["irrigation-leak", "why-is-my-water-bill-so-high"]},
 ]
 
 BLOG_CATS = ["Service Lines", "Finding Leaks", "Costs & Insurance", "Pipes & Repairs", "Emergencies"]

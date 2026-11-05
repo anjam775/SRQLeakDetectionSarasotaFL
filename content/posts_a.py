@@ -88,7 +88,7 @@ If utility crews damage your side during their own repair, ask the utility how t
 
 Local note: owners in [North Port](/locations/north-port/) often have long service lines from the street, so knowing the path matters. In [Venice](/locations/venice/), older homes near the historic districts may still have galvanized lines that are due for replacement. On [Longboat Key](/locations/longboat-key/), the county line runs through the island, so check which utility serves you.
 
-Related reading: if you're facing a full replacement, see the [water line replacement cost](/blog/water-line-replacement-cost/) guide. To track down a hidden leak yourself first, read [how to find a water leak underground](/blog/how-to-find-water-leak-underground/). For a fast shut-off in an emergency, learn [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/).
+Related reading: if you're facing a full replacement, see the [water line replacement cost](/blog/water-line-replacement-cost/) guide. To track down a hidden leak yourself first, read [how to find a water leak underground](/blog/how-to-find-water-leak-underground/). For a fast shut-off in an emergency, learn [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/). To plan any digging, see [how deep water lines are buried in Florida](/blog/how-deep-are-water-lines-buried/), and compare [main water line repair prices](/blog/main-water-line-repair-cost/).
 
 ## When should you call a water line professional?
 
@@ -212,7 +212,7 @@ A small service line leak can grow. It wastes water and money, can wash out sand
 
 Local note: long front yards in [North Port](/locations/north-port/) make the green-strip clue easier to spot. In [Osprey](/locations/osprey/), damp ground near the bay can hide a leak, so rely on the meter test. Owners on [Longboat Key](/locations/longboat-key/) should check the meter when they return for the season.
 
-Related reading: learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/) before you call anyone. If the bill is your main clue, read [why your water bill is so high](/blog/why-is-my-water-bill-so-high/). To narrow the spot down yourself, see [how to find a water leak underground](/blog/how-to-find-water-leak-underground/).
+Related reading: learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/) before you call anyone. If the bill is your main clue, read [why your water bill is so high](/blog/why-is-my-water-bill-so-high/). To narrow the spot down yourself, see [how to find a water leak underground](/blog/how-to-find-water-leak-underground/). Wet ground at the meter box? Read about a [water meter leak](/blog/water-meter-leak/). Concrete over the pipe? See [finding a leak under the driveway](/blog/water-leak-under-driveway/).
 
 ## When should you call a water line professional?
 
@@ -338,7 +338,7 @@ A single break in a sound line is often cheaper to repair. Replacement wins when
 
 Local note: long lines on deep lots in [North Port](/locations/north-port/) push replacement costs up, so trenchless options are worth pricing. In [Lakewood Ranch](/locations/lakewood-ranch/), landscaping and irrigation over the line make restoration a big part of the bill. Older lines in [Bradenton](/locations/bradenton/) are often galvanized and due for full replacement.
 
-Related reading: before you price a new line, learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). If the inside plumbing is old too, see [polybutylene pipes in Florida](/blog/polybutylene-pipes-florida/).
+Related reading: before you price a new line, learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). If the inside plumbing is old too, see [polybutylene pipes in Florida](/blog/polybutylene-pipes-florida/). If one fix may do, compare [the cost to repair a main water line](/blog/main-water-line-repair-cost/), and check [typical water line burial depth](/blog/how-deep-are-water-lines-buried/) before you dig.
 
 ## When should you call a water line professional?
 
@@ -451,7 +451,7 @@ Before you sign, ask how sure the provider is about the leak's location and how 
 
 Local note: many slab homes in [Venice](/locations/venice/) and [Bradenton](/locations/bradenton/) have older copper under the floor, where reroutes are common. Seasonal homes on [Longboat Key](/locations/longboat-key/) can have slab leaks run for months, which raises the cost of water damage.
 
-Related reading: learn the warning signs in [what is a slab leak](/blog/what-is-a-slab-leak/). If your copper keeps failing, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/).
+Related reading: learn the warning signs in [what is a slab leak](/blog/what-is-a-slab-leak/). If your copper keeps failing, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/). If you have a service contract, read [whether a home warranty pays for slab leaks](/blog/does-home-warranty-cover-slab-leaks/).
 
 ## When should you call a slab leak professional?
 

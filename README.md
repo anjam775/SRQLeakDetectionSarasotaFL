@@ -33,5 +33,5 @@ Commit the updated `dist/` after every rebuild.
 
 ## Status at launch
 
-- 41 pages: home, 8 services, 8 locations, 12 blog posts, glossary (56 terms), hubs, about, contact, disclaimer, editorial policy, privacy, terms, accessibility, 404
+- 53 pages: home, 8 services, 8 locations, 24 blog posts, glossary (63 terms), hubs, about, contact, disclaimer, editorial policy, privacy, terms, accessibility, 404
 - Self-audit 27/27 pass; Lighthouse 100/100/100/100 on home, a service, a location and a post

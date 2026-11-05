@@ -193,6 +193,18 @@ POSTKW = {
  "polybutylene-pipes-florida": "polybutylene pipes",
  "pinhole-leaks-copper-pipes": "pinhole leaks in copper pipes",
  "how-to-shut-off-water-to-house": "shut off water to your house",
+ "how-deep-are-water-lines-buried": "water lines buried",
+ "how-to-locate-underground-water-lines": "locate underground water lines",
+ "repipe-cost": "repipe cost",
+ "water-meter-leak": "water meter leak",
+ "water-leak-under-driveway": "water leak under the driveway",
+ "does-home-warranty-cover-slab-leaks": "home warranty cover slab leak",
+ "irrigation-leak": "irrigation leak",
+ "main-water-line-repair-cost": "water line repair cost",
+ "why-is-my-water-pressure-low": "water pressure low",
+ "galvanized-pipe-replacement": "galvanized pipe replacement",
+ "cpvc-pipe-problems": "cpvc pipe problems",
+ "pool-bucket-test": "pool bucket test",
 }
 for s, k in POSTKW.items(): KW[f"/blog/{s}/"] = k
 kwfail = []
@@ -387,7 +399,7 @@ for p in POSTS:
     locs_ = {l for l in body_links if l.startswith("/locations/")}
     if len(guides) < 3: cov.append(f"{p['slug']} only {len(guides)} guide links")
     if not (2 <= len(locs_) <= 5): cov.append(f"{p['slug']} {len(locs_)} location links")
-rep("Every blog links its money page in first 150 words, 3+ guides, 2–5 locations", not cov, "; ".join(cov[:6]) if cov else "12/12 posts pass")
+rep("Every blog links its money page in first 150 words, 3+ guides, 2–5 locations", not cov, "; ".join(cov[:6]) if cov else f"{len(POSTS)}/{len(POSTS)} posts pass")
 
 # ---------------------------------------------------------------- report
 ok = sum(1 for r in R if r[1] == "PASS")

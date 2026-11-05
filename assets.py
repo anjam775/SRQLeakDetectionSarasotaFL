@@ -151,7 +151,7 @@ def make_img(title, label, out):
 make_img("Leak Detection & Water Line Help in Sarasota, FL", "Sarasota & nearby areas", f"{PUB}/assets/img/og-default"); [os.remove(f"{PUB}/assets/img/og-default{x}") for x in (".webp", "-600.webp")]
 
 if __name__ == "__main__":
-    mods = [importlib.import_module(m) for m in ("posts_a", "posts_b", "posts_c")]
+    mods = [importlib.import_module(m) for m in ("posts_a", "posts_b", "posts_c", "posts_d", "posts_e")]
     for m in mods:
         for p in m.PAGES:
             if p["type"] == "post":

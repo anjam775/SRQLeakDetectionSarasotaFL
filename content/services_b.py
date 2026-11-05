@@ -120,7 +120,7 @@ Local note: barrier-island homes on [Siesta Key](/locations/siesta-key/) and [Lo
 "about": ["polybutylene"], "mentions": ["pex", "cpvc", "galvanization"],
 "sources": ["wiki_pb", "wiki_pex", "wiki_cpvc", "angi_slab", "fs_489"],
 "related": ["slab-leak-repair", "water-line-replacement", "water-service-line-repair"],
-"guides": ["polybutylene-pipes-florida", "pinhole-leaks-copper-pipes", "what-is-a-slab-leak"],
+"guides": ["repipe-cost", "galvanized-pipe-replacement", "cpvc-pipe-problems"],
 "body": """
 :::quick
 **Quick answer:** Repiping in Sarasota replaces a home's old water supply pipes, usually with PEX or copper, routed through walls and the attic instead of under the slab. It makes sense for polybutylene, galvanized steel or copper with repeated pinhole or slab leaks. Most repipes take a few days.
@@ -373,7 +373,7 @@ Local note: older neighborhoods in [Bradenton](/locations/bradenton/) and [Venic
 "about": ["swimming_pool"], "mentions": ["leak_detection", "hydrostatic", "sarasota"],
 "sources": ["epa_leaks", "wiki_leak", "wiki_tracer", "fs_489"],
 "related": ["underground-leak-detection", "water-service-line-repair", "slab-leak-repair"],
-"guides": ["why-is-my-water-bill-so-high", "how-to-find-water-leak-underground", "does-insurance-cover-slab-leaks"],
+"guides": ["pool-bucket-test", "why-is-my-water-bill-so-high", "how-to-find-water-leak-underground"],
 "body": """
 :::quick
 **Quick answer:** Pool leak detection in Sarasota finds out whether your pool is losing water to a leak or to evaporation, then pinpoints where. A pro starts with a bucket test, dye-tests the shell, lights, skimmer and returns, and pressure-tests the buried lines. Acoustic tools then find the exact spot underground.

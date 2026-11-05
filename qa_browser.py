@@ -17,7 +17,7 @@ srv = http.server.ThreadingHTTPServer(("127.0.0.1", 8765), functools.partial(H, 
 threading.Thread(target=srv.serve_forever, daemon=True).start()
 B = "http://127.0.0.1:8765"
 
-PAGES = ["/", "/services/", "/services/slab-leak-repair/", "/locations/", "/locations/siesta-key/", "/blog/",
+PAGES = ["/blog/main-water-line-repair-cost/", "/blog/does-home-warranty-cover-slab-leaks/", "/blog/why-is-my-water-pressure-low/", "/blog/pool-bucket-test/", "/glossary/", "/", "/services/", "/services/slab-leak-repair/", "/locations/", "/locations/siesta-key/", "/blog/",
          "/blog/why-is-my-water-bill-so-high/", "/glossary/", "/contact/", "/about/", "/privacy-policy/", "/404.html"]
 res = {"overflow": [], "console": [], "css": [], "cls": {}, "lcp": {}, "states": []}
 

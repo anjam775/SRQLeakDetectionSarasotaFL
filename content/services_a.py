@@ -11,7 +11,7 @@ PAGES = [
 "about": ["water_supply"], "mentions": ["water_metering", "sarasota_county", "lead_service_line"],
 "sources": ["county_faq", "suncoast_bill", "epa_leaks", "cfr_14184", "sunshine811", "fs_489"],
 "related": ["underground-leak-detection", "water-line-replacement", "emergency-water-line-repair"],
-"guides": ["who-is-responsible-for-water-line-from-street-to-house", "signs-of-water-service-line-leak", "water-line-replacement-cost"],
+"guides": ["water-meter-leak", "main-water-line-repair-cost", "why-is-my-water-pressure-low"],
 "body": """
 :::quick
 **Quick answer:** Water service line leak repair in Sarasota fixes the underground pipe that carries water from your meter to your home. A pro confirms the leak with a meter and pressure test, pinpoints it with acoustic or tracer-gas tools, then repairs the section or replaces the line. Leaks on the house side of the meter are the owner's job.
@@ -147,7 +147,7 @@ Local note: service lines in [Venice](/locations/venice/) often run through sand
 "about": ["trenchless"], "mentions": ["pipe_bursting", "pex", "polybutylene"],
 "sources": ["angi_main", "sunshine811", "wiki_burst", "wiki_trenchless", "wiki_pb", "fs_489"],
 "related": ["water-service-line-repair", "repiping", "underground-leak-detection"],
-"guides": ["water-line-replacement-cost", "trenchless-water-line-replacement", "who-is-responsible-for-water-line-from-street-to-house"],
+"guides": ["how-deep-are-water-lines-buried", "water-line-replacement-cost", "trenchless-water-line-replacement"],
 "body": """
 :::quick
 **Quick answer:** Water line replacement in Sarasota swaps the old pipe between your meter and home for a new one, usually PEX or HDPE. A pro can dig a trench or use trenchless pipe bursting or boring from two small pits. Angi reports a national average of about $1,710 for main water line replacement.
@@ -259,7 +259,7 @@ Local note: many lots in [North Port](/locations/north-port/) have long setbacks
 "about": ["shallow_foundation"], "mentions": ["leak_detection", "plumbing", "sarasota"],
 "sources": ["angi_slab", "fs_627", "epa_leaks", "wiki_leak", "wiki_tracer", "fs_489"],
 "related": ["repiping", "underground-leak-detection", "water-service-line-repair"],
-"guides": ["what-is-a-slab-leak", "slab-leak-repair-cost", "does-insurance-cover-slab-leaks"],
+"guides": ["does-home-warranty-cover-slab-leaks", "what-is-a-slab-leak", "slab-leak-repair-cost"],
 "body": """
 :::quick
 **Quick answer:** Slab leak repair in Sarasota starts with finding the exact spot under the concrete using pressure tests, acoustic listening, thermal imaging or tracer gas. The fix can be a direct repair through the floor, tunneling from outside, or rerouting the line overhead. Angi puts the national average at about $2,300, including detection.
@@ -380,7 +380,7 @@ Local note: many mid-century slab homes in [Bradenton](/locations/bradenton/) an
 "about": ["leak_detection"], "mentions": ["tracer_gas", "water_metering", "hydrostatic"],
 "sources": ["epa_leaks", "wiki_leak", "wiki_tracer", "county_faq", "sunshine811"],
 "related": ["water-service-line-repair", "slab-leak-repair", "pool-leak-detection"],
-"guides": ["how-to-find-water-leak-underground", "why-is-my-water-bill-so-high", "signs-of-water-service-line-leak"],
+"guides": ["how-to-locate-underground-water-lines", "water-leak-under-driveway", "irrigation-leak"],
 "body": """
 :::quick
 **Quick answer:** Underground water leak detection in Sarasota finds leaks in buried pipes without digging blind. A pro runs a meter test, isolates sections, then pinpoints the leak with ground microphones, tracer gas or line locating. The EPA says 9 percent of homes have leaks that waste 50 gallons or more per day.

@@ -97,7 +97,7 @@ Most Sarasota homes are built on concrete slabs, so slab leaks are a common clai
 
 Local note: seasonal homes on [Longboat Key](/locations/longboat-key/) and [Siesta Key](/locations/siesta-key/) should close the main before long trips. Older slab homes in [Venice](/locations/venice/) often have aging copper, so a meter check after storms is wise.
 
-Related reading: learn the warning signs in [what is a slab leak](/blog/what-is-a-slab-leak/). If a burst pipe is flooding your home now, read [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/).
+Related reading: learn the warning signs in [what is a slab leak](/blog/what-is-a-slab-leak/). If a burst pipe is flooding your home now, read [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/). Service contracts work differently, so see [how home warranties handle slab leaks](/blog/does-home-warranty-cover-slab-leaks/).
 
 ## When should you call a slab leak professional?
 
@@ -213,7 +213,7 @@ Sarasota County notifies residents when it sees unusually high usage. In a July 
 
 Local note: large irrigation systems in [Lakewood Ranch](/locations/lakewood-ranch/) are a common reason for high bills. Seasonal homes in [Osprey](/locations/osprey/) and on [Siesta Key](/locations/siesta-key/) can rack up usage from a leak no one sees.
 
-Related reading: to track down a buried leak, read [how to find a water leak underground](/blog/how-to-find-water-leak-underground/). To learn who pays for a yard leak, see [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). For a sudden break, learn [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/).
+Related reading: to track down a buried leak, read [how to find a water leak underground](/blog/how-to-find-water-leak-underground/). To learn who pays for a yard leak, see [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). For a sudden break, learn [how to shut off the water to your house](/blog/how-to-shut-off-water-to-house/). Pool owners can rule out the pool with a [bucket test for leaks](/blog/pool-bucket-test/).
 
 ## When should you call a leak detection professional?
 
@@ -326,7 +326,7 @@ If water rises inside the meter box or bubbles in the street, report it to your 
 
 Local note: canal-side yards in [Nokomis](/locations/nokomis/) and bayfront lots in [Osprey](/locations/osprey/) often stay damp, so rely on the meter, not the soil. In [North Port](/locations/north-port/), long lines make step 5 take longer. On [Longboat Key](/locations/longboat-key/), tight lots mean buried lines run close together, so 811 marks are vital.
 
-Related reading: if the bill is what tipped you off, see [why your water bill is so high](/blog/why-is-my-water-bill-so-high/). For more clues in the yard, read the [signs of a water service line leak](/blog/signs-of-water-service-line-leak/). If the leak is under the house, see [what a slab leak is](/blog/what-is-a-slab-leak/).
+Related reading: if the bill is what tipped you off, see [why your water bill is so high](/blog/why-is-my-water-bill-so-high/). For more clues in the yard, read the [signs of a water service line leak](/blog/signs-of-water-service-line-leak/). If the leak is under the house, see [what a slab leak is](/blog/what-is-a-slab-leak/). First, [find where your water line runs](/blog/how-to-locate-underground-water-lines/). For leaks under concrete, read about a [driveway water line leak](/blog/water-leak-under-driveway/).
 
 ## When should you call a leak detection professional?
 
@@ -447,7 +447,7 @@ Most slab leaks aren't an immediate danger, but they shouldn't wait. Over time a
 
 Local note: many older slab homes in [Bradenton](/locations/bradenton/) and [Venice](/locations/venice/) have copper under the floor that is now decades old. Ground-floor condos on [Siesta Key](/locations/siesta-key/) can face slab leaks that affect common areas.
 
-Related reading: if you're filing a claim, see [does insurance cover slab leaks](/blog/does-insurance-cover-slab-leaks/). To learn why copper fails, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/).
+Related reading: if you're filing a claim, see [does insurance cover slab leaks](/blog/does-insurance-cover-slab-leaks/). To learn why copper fails, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/). Before you call a contract company, learn [what home warranty plans cover for slab leaks](/blog/does-home-warranty-cover-slab-leaks/).
 
 ## When should you call a slab leak professional?
 

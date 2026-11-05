@@ -94,7 +94,7 @@ Sandy soil is often friendly to boring and bursting. Many Sarasota lots also hav
 
 Local note: long setbacks on many [North Port](/locations/north-port/) lots make trenchless boring attractive. In [Lakewood Ranch](/locations/lakewood-ranch/), mature landscaping and pavers often sit right over the line. On [Siesta Key](/locations/siesta-key/), small lots can make it hard to fit a trench at all.
 
-Related reading: before you replace, confirm [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). If the inside pipes are old too, see [polybutylene pipes in Florida](/blog/polybutylene-pipes-florida/). For sewer laterals, read about [sewer line repair](/services/sewer-line-repair/).
+Related reading: before you replace, confirm [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). If the inside pipes are old too, see [polybutylene pipes in Florida](/blog/polybutylene-pipes-florida/). For sewer laterals, read about [sewer line repair](/services/sewer-line-repair/). Depth affects any bore, so see [how deep service lines sit in Florida yards](/blog/how-deep-are-water-lines-buried/).
 
 ## When should you call a water line professional?
 
@@ -207,7 +207,7 @@ Home inspectors often note polybutylene in their reports. If you're buying, ask 
 
 Local note: many homes in [North Port](/locations/north-port/) and [Venice](/locations/venice/) were built during the years polybutylene was used, so it's worth checking. Older homes in [Nokomis](/locations/nokomis/) may have been replumbed in that period.
 
-Related reading: see how [trenchless water line replacement](/blog/trenchless-water-line-replacement/) works for the yard line. If your home has copper instead, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/). For costs, see the [water line replacement cost](/blog/water-line-replacement-cost/) guide.
+Related reading: see how [trenchless water line replacement](/blog/trenchless-water-line-replacement/) works for the yard line. If your home has copper instead, read about [pinhole leaks in copper pipes](/blog/pinhole-leaks-copper-pipes/). For costs, see the [water line replacement cost](/blog/water-line-replacement-cost/) guide. To budget, read the [whole house repipe cost guide](/blog/repipe-cost/). Other aging pipe types are covered in [replacing galvanized pipe](/blog/galvanized-pipe-replacement/) and [common CPVC failures](/blog/cpvc-pipe-problems/).
 
 ## When should you call a repiping professional?
 
@@ -319,7 +319,7 @@ Both work well. Wikipedia notes PEX is used mainly in building pipework and dome
 
 Local note: older slab homes in [Bradenton](/locations/bradenton/) often have decades-old copper. Ground-floor condos on [Longboat Key](/locations/longboat-key/) and [Siesta Key](/locations/siesta-key/) may share risers and walls, so a pinhole can affect neighbors.
 
-Related reading: if your home is from the late 1970s to the 1990s, check for [polybutylene pipes](/blog/polybutylene-pipes-florida/) too. For costs, see the [slab leak repair cost](/blog/slab-leak-repair-cost/) guide.
+Related reading: if your home is from the late 1970s to the 1990s, check for [polybutylene pipes](/blog/polybutylene-pipes-florida/) too. For costs, see the [slab leak repair cost](/blog/slab-leak-repair-cost/) guide. Compare [repipe prices](/blog/repipe-cost/), and see [problems with CPVC pipe](/blog/cpvc-pipe-problems/) and [galvanized steel pipe replacement](/blog/galvanized-pipe-replacement/).
 
 ## When should you call a plumbing professional?
 
@@ -426,7 +426,7 @@ Florida Statutes § 627.70132 requires notice of a property insurance claim with
 
 Local note: seasonal homes on [Longboat Key](/locations/longboat-key/), [Siesta Key](/locations/siesta-key/) and Casey Key in [Nokomis](/locations/nokomis/) should close the main before the owner leaves. In [Osprey](/locations/osprey/) and other bayfront areas, shut-off valves near salt air can corrode, so test them yearly.
 
-Related reading: once the water is off, learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). Then check the [signs of a water service line leak](/blog/signs-of-water-service-line-leak/) to see if the problem is in the yard. If insurance may help with the damage, read [does insurance cover slab leaks](/blog/does-insurance-cover-slab-leaks/).
+Related reading: once the water is off, learn [who is responsible for the water line from the street to the house](/blog/who-is-responsible-for-water-line-from-street-to-house/). Then check the [signs of a water service line leak](/blog/signs-of-water-service-line-leak/) to see if the problem is in the yard. If insurance may help with the damage, read [does insurance cover slab leaks](/blog/does-insurance-cover-slab-leaks/). If flow stays weak after you reopen the valve, read [why water pressure drops](/blog/why-is-my-water-pressure-low/).
 
 ## When should you call an emergency plumbing professional?
 

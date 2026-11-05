@@ -17,7 +17,7 @@ site/                      ← deploy this folder (Cloudflare Pages output dir)
 │                          sewer-line-repair, pool-leak-detection
 ├── locations/             hub + 8: venice, bradenton, lakewood-ranch, north-port, osprey, nokomis,
 │                          siesta-key, longboat-key
-├── blog/                  hub + 12 posts
+├── blog/                  hub + 24 posts
 ├── glossary/              56 terms, DefinedTermSet schema
 ├── about/ contact/ disclaimer/ editorial-policy/ privacy-policy/ terms/ accessibility/
 └── assets/
@@ -27,7 +27,7 @@ site/                      ← deploy this folder (Cloudflare Pages output dir)
 source/                    generator (Python): build.py, assets.py, audit.py, qa_browser.py, content/*.py
 ```
 
-41 HTML pages (40 indexable). Rebuild: `python3 assets.py && python3 build.py && python3 audit.py`.
+53 HTML pages (52 indexable). Rebuild: `python3 assets.py && python3 build.py && python3 audit.py`.
 
 ## 2. Image list
 
@@ -52,32 +52,32 @@ Optional later: real job photos (WebP, ≤200 KB, with width/height) for service
 | Internal links and assets resolve | PASS | 0 broken links |
 | No orphan pages | PASS | 0 orphans |
 | Max click depth 2 from home | PASS | max depth = 2 |
-| ≥3 in-text inbound links (services, locations, posts) | PASS | all ≥3 (min 4) |
+| ≥3 in-text inbound links (services, locations, posts) | PASS | all ≥3 (min 3) |
 | No nested links (cards, glossary links) | PASS | 0 nested anchors |
 | No generic anchor text | PASS | 0 generic anchors |
 | Titles ≤60, metas ≤155, one H1, canonical/OG/lang, heading order | PASS | all pages pass |
 | Unique titles, metas and H1s | PASS | all unique |
-| Keyword in title, meta, H1, first 100 words, an H2, slug | PASS | 29 money/blog pages pass |
+| Keyword in title, meta, H1, first 100 words, an H2, slug | PASS | 41 money/blog pages pass |
 | No cannibalization (unique primary keyword per page) | PASS | Home owns 'leak detection Sarasota'; locations own 'leak detection + area'; services own sub-services; posts own informational queries |
 | Word counts in range (home 1.2–1.8k, services 1.0–1.8k*, locations 0.8–1.2k, posts 1.0–2.3k) | PASS | all in range |
 | Location pages ≥60% unique (5-word shingles) | PASS | min 83.1% / max 92.7% |
 | No duplicate paragraphs of 14+ words site-wide | PASS | 0 duplicates |
-| Reading level FK grade ≤9 (target 6–8) | PASS | avg 5.8, range 4.3–8.9 |
-| Schema valid JSON, @ids resolve, FAQs visible, no ratings/address/geo/hours | PASS | 41 pages, 142 @ids |
+| Reading level FK grade ≤9 (target 6–8) | PASS | avg 5.6, range 4.3–8.9 |
+| Schema valid JSON, @ids resolve, FAQs visible, no ratings/address/geo/hours | PASS | 53 pages, 190 @ids |
 | Banned wording scan (text, alt, meta) | PASS | 0 hits |
 | 'Licensed' only next to plumber/contractor/law | PASS | rule respected |
 | Single phone number and tel: value site-wide | PASS | (941) 541-0938 / tel:+19415410938 only |
 | Referral disclosure on every page | PASS | present on all pages |
 | No street address (service-area business) | PASS | no address in pages or schema |
 | Images: alt text, width/height, lazy except LCP | PASS | all images pass |
-| Performance budget (HTML <100KB, images <200KB, JS ≤10KB) | PASS | max HTML 59KB, JS 1461B, inline CSS 11800B, max image 63KB |
+| Performance budget (HTML <100KB, images <200KB, JS ≤10KB) | PASS | max HTML 64KB, JS 1461B, inline CSS 11800B, max image 63KB |
 | No render-blocking scripts or CSS | PASS | JS deferred; CSS preloaded + inline critical |
-| sitemap.xml lists every indexable page with lastmod | PASS | 40 URLs |
+| sitemap.xml lists every indexable page with lastmod | PASS | 52 URLs |
 | robots, _headers, _redirects, manifest, icons, 404 present | PASS | all present |
 | 404 is noindex | PASS |  |
-| Every blog links its money page in first 150 words, 3+ guides, 2–5 locations | PASS | 12/12 posts pass |
+| Every blog links its money page in first 150 words, 3+ guides, 2–5 locations | PASS | 24/24 posts pass |
 
-**Browser QA (headless Chrome, live CSP headers):** no horizontal scroll at 360 / 768 / 1280 px on 12 page types; 0 console or CSP errors; CLS 0; local LCP ≤ 160 ms. Mobile menu opens, sub-menus expand, Esc closes; desktop dropdowns open on hover and focus; sticky call bar shows under 960 px and hides above; header phone visible on desktop; CTA hover amber→light amber with navy text; card hover teal border; logo stays visible on hover; visible 3 px focus outlines; footer links turn mint on hover.
+**Browser QA (headless Chrome, live CSP headers):** no horizontal scroll at 360 / 768 / 1280 px on 17 page types (including 4 new posts); 0 console or CSP errors; CLS 0; local LCP ≤ 160 ms. Mobile menu opens, sub-menus expand, Esc closes; desktop dropdowns open on hover and focus; sticky call bar shows under 960 px and hides above; header phone visible on desktop; CTA hover amber→light amber with navy text; card hover teal border; logo stays visible on hover; visible 3 px focus outlines; footer links turn mint on hover.
 
 | Fix log | Issue found | Fix applied |
 | --- | --- | --- |
@@ -119,26 +119,34 @@ No `[PLACEHOLDER]` text is on the site (per your instruction). These items are *
 9. **Social:** create profiles, then replace the default URLs in `content/data.py → SITE["social"]` and rebuild.
 10. **Monitoring:** run Semrush Position Tracking for the keyword map; review at day 30 and day 60.
 
-## 6. 90-day content plan (next posts)
+## 6. Content wave 2 (published November 5, 2026)
 
-All 12 blog-map posts are live at launch. Next 12, one per week, from Semrush (US) data:
+The 12 posts from the 90-day plan are now live, bringing the blog to 24 posts. Each follows the Blog Post Criteria doc: short-answer box, money-page link in the first 150 words, question H2s, numbered steps, checklists, comparison tables, a Florida rule section, a Sarasota section, mid and final CTAs, a prevention list, a Local note with 3–4 location links, a Related reading paragraph, 4–5 FAQs (FAQPage schema) and 3–6 opened primary sources.
 
-| Week | Post (target keyword, vol/KD) | Supports | Category |
-| --- | --- | --- | --- |
-| 1 | How deep are water lines buried? (how deep are water lines buried, 880/3) | Water service line repair | Service Lines |
-| 2 | How to locate underground water lines (how to locate underground water lines, 480/6) | Underground leak detection | Finding Leaks |
-| 3 | Whole-house repipe cost (repipe cost, 480/9; whole house repipe, 1,000/6) | Repiping | Costs & Insurance |
-| 4 | Water meter leak: what it means (water meter leak, 320/5) | Water service line repair | Service Lines |
-| 5 | Water leak under the driveway (water leak under driveway, 390/9) | Underground leak detection | Finding Leaks |
-| 6 | Does a home warranty cover slab leaks? (320/9) | Slab leak repair | Costs & Insurance |
-| 7 | Irrigation leaks: how to find and fix them (irrigation leak, 320/11) | Underground leak detection | Finding Leaks |
-| 8 | Main water line repair cost (water line repair cost, 140/21) | Water service line repair | Costs & Insurance |
-| 9 | Why is my water pressure low? (water pressure low, 880/27) | Water service line repair | Pipes & Repairs |
-| 10 | Galvanized pipe replacement guide (galvanized pipe replacement, 320/25) | Repiping | Pipes & Repairs |
-| 11 | CPVC pipe problems in Florida homes (cpvc pipe problems, 170/8) | Repiping | Pipes & Repairs |
-| 12 | Pool leak detection: bucket test guide (validate "pool leaking" questions in Semrush first) | Pool leak detection | Finding Leaks |
+| # | Post | Keyword (Semrush vol/KD) | Supports | Strongest competitor (est.) | Our words |
+| --- | --- | --- | --- | --- | --- |
+| 13 | /blog/how-deep-are-water-lines-buried/ | how deep are water lines buried (880/3) | Water line replacement | HomeServe ~800 | 1,545 |
+| 14 | /blog/how-to-locate-underground-water-lines/ | how to locate underground water lines (480/6) | Underground leak detection | Precision Outdoor Tech ~1,400 | 1,540 |
+| 15 | /blog/repipe-cost/ | repipe cost (480/9); whole house repipe (1,000/6) | Repiping | Angi ~1,100 | 1,180 |
+| 16 | /blog/water-meter-leak/ | water meter leak (320/5) | Water service line repair | Checkatrade ~1,100 | 1,245 |
+| 17 | /blog/water-leak-under-driveway/ | water leak under driveway (390/9) | Underground leak detection | HomeGo ~800 | 1,280 |
+| 18 | /blog/does-home-warranty-cover-slab-leaks/ | does home warranty cover slab leaks (320/9) | Slab leak repair | ConsumerAffairs ~1,500 | 1,582 |
+| 19 | /blog/irrigation-leak/ | irrigation leak (320/11) | Underground leak detection | Angi ~1,250 | 1,344 |
+| 20 | /blog/main-water-line-repair-cost/ | water line repair cost (140/21) | Water service line repair | Angi/HomeAdvisor ~1,500 (excl. FAQ) | 1,505 |
+| 21 | /blog/why-is-my-water-pressure-low/ | water pressure low (880/27) | Water service line repair | Bob Vila ~3,000 (above the 2,300 cap) | 1,753 |
+| 22 | /blog/galvanized-pipe-replacement/ | galvanized pipe replacement (320/25) | Repiping | Home Living Handbook ~800 | 1,199 |
+| 23 | /blog/cpvc-pipe-problems/ | cpvc pipe problems (170/8) | Repiping | Repipe Specialists ~1,150 | 1,325 |
+| 24 | /blog/pool-bucket-test/ | pool bucket test (pool leak questions) | Pool leak detection | Angi ~1,100 | 1,261 |
 
-Write each one with your Blog Post Criteria doc: SERP brief, competitor benchmark, money-page link in the first 150 words, 3–6 guide links, 2–5 location links, sources opened, and 2–3 older posts updated to link back. Refresh with Semrush position data at day 60.
+Bob Vila's low-pressure guide runs about 3,000 words, above the site's 2,300-word ceiling, so that post covers its 10 causes and fixes in tighter form instead of matching length.
+
+**Semantic coverage:** each post was checked against a 19–24 term topic list (equipment, materials, codes, agencies and local terms). All 12 cover at least 19 terms; jargon such as sonde, trace wire, PRV, zone valve, solvent cement and home warranty association is defined on first use.
+
+**Internal links added:** each service page now lists its new guides first under Helpful guides; 11 older posts gained Related reading links to the new posts; every new post has at least 3 in-text inbound links. The glossary gained 7 terms (bucket test, ground-penetrating radar, home warranty, solvent cement, sonde, trace wire, zone valve), and 5 existing terms now point to the new guides.
+
+**New sources opened:** Florida Building Code plumbing supplement § 305.6; Florida Statutes §§ 556.108 and 634.301; EPA WaterSense Sprinkler Spruce-Up; City of Sarasota Phase III restrictions update (Sept. 23, 2026); PNNL Building America service water pressure guide; City of Scottsdale pool bucket test; WKMG ClickOrlando CPVC report (2015). Company figures from Angi and ConsumerAffairs are credited by name in the text.
+
+**Next:** refresh all 24 posts with Semrush position data at day 60, and watch the Phase III restriction end date (currently March 31, 2027) in the irrigation post.
 
 ## 7. Data-source note
 
