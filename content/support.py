@@ -41,7 +41,7 @@ PAGES = [
 # ------------------------------------------------------------------ services hub
 {"type": "hub", "slug": "services", "url": "/services/",
 "title": "Leak Detection & Water Line Services | Sarasota, FL",
-"meta": "Leak detection and water line services in Sarasota, FL: service lines, slabs, sewers, pools, repipes and emergencies. Call (941) 541-0938.",
+"meta": "Leak detection and water line services in Sarasota, FL: service lines, slabs, sewers, pools, repipes and emergencies. Call (941) 393-1012.",
 "h1": "Leak Detection and Water Line Services in Sarasota",
 "crumb": "Services", "trail": [("Home", "/"), ("Services", "/services/")],
 "lead": "Eight services, one phone number. SRQ Leak Pros connects Sarasota-area homeowners with independent local leak detection and water line companies.",
@@ -164,8 +164,8 @@ Calls may be connected to independent providers and may be recorded for quality 
 },
 # ------------------------------------------------------------------ contact
 {"type": "contact", "slug": "contact", "url": "/contact/",
-"title": "Contact SRQ Leak Pros | Call (941) 541-0938",
-"meta": "Contact SRQ Leak Pros by phone at (941) 541-0938 to reach an independent local leak detection or water line provider in the Sarasota area.",
+"title": "Contact SRQ Leak Pros | Call (941) 393-1012",
+"meta": "Contact SRQ Leak Pros by phone at (941) 393-1012 to reach an independent local leak detection or water line provider in the Sarasota area.",
 "h1": "Contact SRQ Leak Pros",
 "crumb": "Contact", "trail": [("Home", "/"), ("Contact", "/contact/")],
 "lead": "The fastest way to reach a local leak pro is by phone. Call and describe what you're seeing.",
@@ -173,7 +173,7 @@ Calls may be connected to independent providers and may be recorded for quality 
 "body": """
 ## Call to reach a local provider
 
-<p><a class="big-call" href="tel:+19415410938" data-call="contact">(941) 541-0938</a></p>
+<p><a class="big-call" href="tel:+19413931012" data-call="contact">(941) 393-1012</a></p>
 
 Your call can be connected with an independent, participating provider that serves your area. Calls may be recorded for quality and training.
 

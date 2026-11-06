@@ -1,6 +1,6 @@
 # SRQ Leak Pros — leakdetectionsarasotafl.us
 
-Static lead-gen site for leak detection and water service line repair in Sarasota, FL. Referral voice (LeadSmart-compatible), service-area business, single phone (941) 541-0938.
+Static lead-gen site for leak detection and water service line repair in Sarasota, FL. Referral voice (LeadSmart-compatible), service-area business, single phone (941) 393-1012.
 
 ## Layout
 

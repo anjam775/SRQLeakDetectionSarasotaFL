@@ -5,7 +5,7 @@ PAGES = [
 # ------------------------------------------------------------------ Venice
 {"type": "location", "slug": "venice", "url": "/locations/venice/",
 "title": "Leak Detection Venice, FL | SRQ Leak Pros",
-"meta": "Leak detection in Venice, FL for Venice Island slab homes, service lines and pools. Call (941) 541-0938 to reach an independent local leak pro.",
+"meta": "Leak detection in Venice, FL for Venice Island slab homes, service lines and pools. Call (941) 393-1012 to reach an independent local leak pro.",
 "h1": "Leak Detection in Venice, FL",
 "crumb": "Venice", "trail": TR("Venice", "venice"),
 "lead": "From the historic streets of Venice Island to newer neighborhoods east of the Intracoastal, SRQ Leak Pros connects owners in ZIP codes 34285, 34292 and 34293 with local leak pros.",
@@ -69,7 +69,7 @@ Before any digging, Florida law requires a call to Sunshine 811 at least two ful
 # ------------------------------------------------------------------ Bradenton
 {"type": "location", "slug": "bradenton", "url": "/locations/bradenton/",
 "title": "Leak Detection Bradenton, FL | SRQ Leak Pros",
-"meta": "Leak detection in Bradenton, FL for older river-city homes, slabs, service lines and sewers. Call (941) 541-0938 to reach a local leak pro.",
+"meta": "Leak detection in Bradenton, FL for older river-city homes, slabs, service lines and sewers. Call (941) 393-1012 to reach a local leak pro.",
 "h1": "Leak Detection in Bradenton, FL",
 "crumb": "Bradenton", "trail": TR("Bradenton", "bradenton"),
 "lead": "From Braden Castle Park and the Village of the Arts to newer subdivisions south of the Manatee River, SRQ Leak Pros connects Bradenton owners in ZIP codes 34201 to 34212 with local leak pros.",
@@ -136,7 +136,7 @@ Older homes can hide surprises, so a few questions up front save time. Ask the p
 # ------------------------------------------------------------------ Lakewood Ranch
 {"type": "location", "slug": "lakewood-ranch", "url": "/locations/lakewood-ranch/",
 "title": "Leak Detection Lakewood Ranch, FL | SRQ Leak Pros",
-"meta": "Leak detection in Lakewood Ranch, FL for newer homes, long service lines, irrigation and pools. Call (941) 541-0938 to reach a local leak pro.",
+"meta": "Leak detection in Lakewood Ranch, FL for newer homes, long service lines, irrigation and pools. Call (941) 393-1012 to reach a local leak pro.",
 "h1": "Leak Detection in Lakewood Ranch, FL",
 "crumb": "Lakewood Ranch", "trail": TR("Lakewood Ranch", "lakewood-ranch"),
 "lead": "Newer homes leak too. SRQ Leak Pros connects owners across Lakewood Ranch, ZIP codes 34202, 34211, 34212 and 34240, with local pros for service line, irrigation, slab and pool leaks.",
@@ -200,7 +200,7 @@ If your home is only a few years old, check your builder's warranty before payin
 # ------------------------------------------------------------------ North Port
 {"type": "location", "slug": "north-port", "url": "/locations/north-port/",
 "title": "Leak Detection North Port, FL | SRQ Leak Pros",
-"meta": "Leak detection in North Port, FL for long service lines, slab homes and post-storm pipe damage. Call (941) 541-0938 to reach a local leak pro.",
+"meta": "Leak detection in North Port, FL for long service lines, slab homes and post-storm pipe damage. Call (941) 393-1012 to reach a local leak pro.",
 "h1": "Leak Detection in North Port, FL",
 "crumb": "North Port", "trail": TR("North Port", "north-port"),
 "lead": "Sarasota County's largest city has miles of streets and long yards. SRQ Leak Pros connects North Port owners in ZIP codes 34286 to 34291 with local pros for buried line and slab leaks.",
@@ -264,7 +264,7 @@ Long lines and mixed pipe types make a few questions worth asking. How will the 
 # ------------------------------------------------------------------ Osprey
 {"type": "location", "slug": "osprey", "url": "/locations/osprey/",
 "title": "Leak Detection Osprey, FL | SRQ Leak Pros",
-"meta": "Leak detection in Osprey, FL for bayfront homes, golf communities, pools and service lines. Call (941) 541-0938 to reach a local leak pro.",
+"meta": "Leak detection in Osprey, FL for bayfront homes, golf communities, pools and service lines. Call (941) 393-1012 to reach a local leak pro.",
 "h1": "Leak Detection in Osprey, FL",
 "crumb": "Osprey", "trail": TR("Osprey", "osprey"),
 "lead": "Between Sarasota and Venice along the bay, Osprey homes range from bayfront cottages to golf-course estates. SRQ Leak Pros connects owners in ZIP code 34229 with local leak pros.",
@@ -328,7 +328,7 @@ Large lots mean more than one system can leak at once. Ask the provider to test 
 # ------------------------------------------------------------------ Nokomis
 {"type": "location", "slug": "nokomis", "url": "/locations/nokomis/",
 "title": "Leak Detection Nokomis, FL | SRQ Leak Pros",
-"meta": "Leak detection in Nokomis, FL for older coastal homes, Casey Key houses and canal lots. Call (941) 541-0938 to reach an independent local leak pro.",
+"meta": "Leak detection in Nokomis, FL for older coastal homes, Casey Key houses and canal lots. Call (941) 393-1012 to reach an independent local leak pro.",
 "h1": "Leak Detection in Nokomis, FL",
 "crumb": "Nokomis", "trail": TR("Nokomis", "nokomis"),
 "lead": "From older streets near Dona Bay to the beach homes of Casey Key, SRQ Leak Pros connects Nokomis owners in ZIP codes 34274 and 34275 with local leak and water line pros.",
@@ -390,7 +390,7 @@ Some insurers ask about the age and type of plumbing in older homes. If your Nok
 # ------------------------------------------------------------------ Siesta Key
 {"type": "location", "slug": "siesta-key", "url": "/locations/siesta-key/",
 "title": "Leak Detection Siesta Key, FL | SRQ Leak Pros",
-"meta": "Leak detection on Siesta Key, FL for condos, beach homes and seasonal properties. Call (941) 541-0938 to reach an independent local leak pro.",
+"meta": "Leak detection on Siesta Key, FL for condos, beach homes and seasonal properties. Call (941) 393-1012 to reach an independent local leak pro.",
 "h1": "Leak Detection on Siesta Key, FL",
 "crumb": "Siesta Key", "trail": TR("Siesta Key", "siesta-key"),
 "lead": "From Siesta Key Village to Crescent and Turtle beaches, island homes and condos face salt air and seasonal gaps. SRQ Leak Pros connects owners in ZIP code 34242 with local leak pros.",
@@ -452,7 +452,7 @@ If you rent your Siesta Key home to guests, a leak can hit between bookings when
 # ------------------------------------------------------------------ Longboat Key
 {"type": "location", "slug": "longboat-key", "url": "/locations/longboat-key/",
 "title": "Leak Detection Longboat Key, FL | SRQ Leak Pros",
-"meta": "Leak detection on Longboat Key, FL for island homes, towers and seasonal properties. Call (941) 541-0938 to reach an independent local leak pro.",
+"meta": "Leak detection on Longboat Key, FL for island homes, towers and seasonal properties. Call (941) 393-1012 to reach an independent local leak pro.",
 "h1": "Leak Detection on Longboat Key, FL",
 "crumb": "Longboat Key", "trail": TR("Longboat Key", "longboat-key"),
 "lead": "Along Gulf of Mexico Drive, Longboat Key's homes and towers sit between Sarasota Bay and the Gulf. SRQ Leak Pros connects owners in ZIP code 34228 with local leak and water line pros.",

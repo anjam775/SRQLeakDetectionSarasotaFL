@@ -1,7 +1,7 @@
 PAGES = [{
 "type": "home", "url": "/", "slug": "home",
 "title": "Leak Detection Sarasota, FL | SRQ Leak Pros",
-"meta": "Leak detection in Sarasota, FL for service lines, slabs, sewers and pools. Call (941) 541-0938 to reach an independent local leak pro.",
+"meta": "Leak detection in Sarasota, FL for service lines, slabs, sewers and pools. Call (941) 393-1012 to reach an independent local leak pro.",
 "h1": "Leak Detection in Sarasota, FL",
 "crumb": "Home",
 "lead": "Hidden leak, wet yard or a water bill that won't come down? SRQ Leak Pros connects Sarasota homeowners with independent local pros who find leaks and fix water service lines.",

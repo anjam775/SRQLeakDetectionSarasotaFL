@@ -340,10 +340,10 @@ ph_bad = []
 for u, h in PAGES.items():
     vis = strip(h)
     for m in re.findall(r"\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b", vis):
-        if re.sub(r"\D", "", m) != "9415410938": ph_bad.append(f"{m} on {u}")
+        if re.sub(r"\D", "", m) != "9413931012": ph_bad.append(f"{m} on {u}")
     for t in re.findall(r'href="tel:([^"]+)"', h):
-        if t != "+19415410938": ph_bad.append(f"tel {t} on {u}")
-rep("Single phone number and tel: value site-wide", not ph_bad, "; ".join(ph_bad[:5]) if ph_bad else "(941) 541-0938 / tel:+19415410938 only")
+        if t != "+19413931012": ph_bad.append(f"tel {t} on {u}")
+rep("Single phone number and tel: value site-wide", not ph_bad, "; ".join(ph_bad[:5]) if ph_bad else "(941) 393-1012 / tel:+19413931012 only")
 
 disc = [u for u, h in PAGES.items() if "Referral disclosure:" not in h]
 rep("Referral disclosure on every page", not disc, f"missing: {disc}" if disc else "present on all pages")

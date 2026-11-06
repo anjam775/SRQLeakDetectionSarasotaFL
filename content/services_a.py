@@ -4,7 +4,7 @@ PAGES = [
 # ------------------------------------------------------------------ 1
 {"type": "service", "slug": "water-service-line-repair", "url": "/services/water-service-line-repair/",
 "title": "Water Service Line Leak Repair in Sarasota, FL",
-"meta": "Water service line leak repair in Sarasota, FL: testing, locating and fixing the pipe from meter to house. Call (941) 541-0938 to reach a local pro.",
+"meta": "Water service line leak repair in Sarasota, FL: testing, locating and fixing the pipe from meter to house. Call (941) 393-1012 to reach a local pro.",
 "h1": "Water Service Line Leak Repair in Sarasota, FL",
 "crumb": "Water Service Line Repair", "trail": TR("Water Service Line Repair", "water-service-line-repair"),
 "lead": "The buried pipe between your water meter and your house is yours to fix. SRQ Leak Pros connects you with a local pro who can find the leak and repair the line with as little digging as possible.",
@@ -140,7 +140,7 @@ Local note: service lines in [Venice](/locations/venice/) often run through sand
 # ------------------------------------------------------------------ 2
 {"type": "service", "slug": "water-line-replacement", "url": "/services/water-line-replacement/",
 "title": "Water Line Replacement in Sarasota, FL | Main Line",
-"meta": "Water line replacement in Sarasota, FL: trench or trenchless, new PEX or HDPE line, permit and 811. Call (941) 541-0938 to reach a local pro.",
+"meta": "Water line replacement in Sarasota, FL: trench or trenchless, new PEX or HDPE line, permit and 811. Call (941) 393-1012 to reach a local pro.",
 "h1": "Water Line Replacement in Sarasota, FL",
 "crumb": "Water Line Replacement", "trail": TR("Water Line Replacement", "water-line-replacement"),
 "lead": "When the main water line keeps leaking or is made of failing pipe, replacing it is often smarter than another patch. SRQ Leak Pros connects you with a local pro for trench or trenchless replacement.",
@@ -252,7 +252,7 @@ Local note: many lots in [North Port](/locations/north-port/) have long setbacks
 # ------------------------------------------------------------------ 3
 {"type": "service", "slug": "slab-leak-repair", "url": "/services/slab-leak-repair/",
 "title": "Slab Leak Repair in Sarasota, FL | Detection & Fix",
-"meta": "Slab leak repair in Sarasota, FL: find the leak under your floor, then spot repair, reroute or tunnel. Call (941) 541-0938 to reach a local pro.",
+"meta": "Slab leak repair in Sarasota, FL: find the leak under your floor, then spot repair, reroute or tunnel. Call (941) 393-1012 to reach a local pro.",
 "h1": "Slab Leak Repair in Sarasota, FL",
 "crumb": "Slab Leak Repair", "trail": TR("Slab Leak Repair", "slab-leak-repair"),
 "lead": "A slab leak hides under your concrete floor, often in copper pipe. SRQ Leak Pros connects you with a local pro who can pinpoint it and recommend a spot repair, a reroute or tunneling.",
@@ -373,7 +373,7 @@ Local note: many mid-century slab homes in [Bradenton](/locations/bradenton/) an
 # ------------------------------------------------------------------ 4
 {"type": "service", "slug": "underground-leak-detection", "url": "/services/underground-leak-detection/",
 "title": "Underground Leak Detection in Sarasota, FL",
-"meta": "Underground water leak detection in Sarasota, FL: acoustic, tracer gas and line locating for yards, driveways and lines. Call (941) 541-0938 for a pro.",
+"meta": "Underground water leak detection in Sarasota, FL: acoustic, tracer gas and line locating for yards, driveways and lines. Call (941) 393-1012 for a pro.",
 "h1": "Underground Water Leak Detection in Sarasota, FL",
 "crumb": "Underground Leak Detection", "trail": TR("Underground Leak Detection", "underground-leak-detection"),
 "lead": "Water is leaving your meter but nothing looks wet. SRQ Leak Pros connects you with a local pro who uses acoustic listening, tracer gas and line locating to find buried leaks.",

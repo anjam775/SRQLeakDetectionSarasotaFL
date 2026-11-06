@@ -1,6 +1,6 @@
 # SRQ Leak Pros — Delivery Report
 
-Site: **https://leakdetectionsarasotafl.us** · Brand: **SRQ Leak Pros** · Phone: **(941) 541-0938** (`tel:+19415410938`) · Built November 04, 2026
+Site: **https://leakdetectionsarasotafl.us** · Brand: **SRQ Leak Pros** · Phone: **(941) 393-1012** (`tel:+19413931012`) · Built November 04, 2026
 
 Model: LeadSmart-compatible **referral voice**, service-area business (no address shown), no hours, no email, no licenses or reviews, no placeholders. Social icons link to platform homepages (owner request; replace with real profile URLs later).
 
@@ -69,7 +69,7 @@ Optional later: real job photos (WebP, ≤200 KB, with width/height) for service
 | Schema valid JSON, @ids resolve, FAQs visible, no ratings/address/geo/hours | PASS | 53 pages, 190 @ids |
 | Banned wording scan (text, alt, meta) | PASS | 0 hits |
 | 'Licensed' only next to plumber/contractor/law | PASS | rule respected |
-| Single phone number and tel: value site-wide | PASS | (941) 541-0938 / tel:+19415410938 only |
+| Single phone number and tel: value site-wide | PASS | (941) 393-1012 / tel:+19413931012 only |
 | Referral disclosure on every page | PASS | present on all pages |
 | No street address (service-area business) | PASS | no address in pages or schema |
 | Images: alt text, width/height, lazy except LCP | PASS | all images pass |
@@ -117,8 +117,8 @@ No `[PLACEHOLDER]` text is on the site (per your instruction). These items are *
 4. **Check headers:** open DevTools → Network on the live site and confirm `_headers` (CSP, HSTS, immutable `/assets/*`).
 5. **Google Search Console:** add a Domain property, verify by DNS TXT, submit `https://leakdetectionsarasotafl.us/sitemap.xml`, request indexing for home, services hub and locations hub.
 6. **Bing Webmaster Tools:** import from GSC, submit the sitemap.
-7. **Call tracking:** confirm (941) 541-0938 routes through Ringba/LeadSmart as planned and that the recording announcement plays (the site says calls may be recorded).
-8. **GBP and citations:** create a service-area GBP, name **SRQ Leak Pros**, phone **(941) 541-0938**, website the apex URL, address hidden, service areas = Sarasota, Venice, Bradenton, Lakewood Ranch, North Port, Osprey, Nokomis, Siesta Key, Longboat Key. Use the identical name/phone/URL on every citation (Bing Places, Apple Business Connect, Yelp, BBB, Nextdoor). No address on any citation.
+7. **Call tracking:** confirm (941) 393-1012 routes through Ringba/LeadSmart as planned and that the recording announcement plays (the site says calls may be recorded).
+8. **GBP and citations:** create a service-area GBP, name **SRQ Leak Pros**, phone **(941) 393-1012**, website the apex URL, address hidden, service areas = Sarasota, Venice, Bradenton, Lakewood Ranch, North Port, Osprey, Nokomis, Siesta Key, Longboat Key. Use the identical name/phone/URL on every citation (Bing Places, Apple Business Connect, Yelp, BBB, Nextdoor). No address on any citation.
 9. **Social:** create profiles, then replace the default URLs in `content/data.py → SITE["social"]` and rebuild.
 10. **Monitoring:** run Semrush Position Tracking for the keyword map; review at day 30 and day 60.
 

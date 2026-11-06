@@ -4,7 +4,7 @@ PAGES = [
 # ------------------------------------------------------------------ 5
 {"type": "service", "slug": "emergency-water-line-repair", "url": "/services/emergency-water-line-repair/",
 "title": "Emergency Water Line Repair in Sarasota, FL",
-"meta": "Emergency water line repair in Sarasota, FL: burst pipe, gushing yard line or no water. Shut off the main, then call (941) 541-0938 for a local pro.",
+"meta": "Emergency water line repair in Sarasota, FL: burst pipe, gushing yard line or no water. Shut off the main, then call (941) 393-1012 for a local pro.",
 "h1": "Emergency Water Line Repair in Sarasota, FL",
 "crumb": "Emergency Water Line Repair", "trail": TR("Emergency Water Line Repair", "emergency-water-line-repair"),
 "lead": "Water gushing from the yard, a burst pipe or no water at all? Shut off the main valve first. Then call SRQ Leak Pros to reach a local pro for emergency water line repair.",
@@ -113,7 +113,7 @@ Local note: barrier-island homes on [Siesta Key](/locations/siesta-key/) and [Lo
 # ------------------------------------------------------------------ 6
 {"type": "service", "slug": "repiping", "url": "/services/repiping/",
 "title": "Repiping in Sarasota, FL | Whole-House Repipe",
-"meta": "Repiping in Sarasota, FL: replace polybutylene, galvanized or pinholed copper with PEX or copper. Call (941) 541-0938 to reach a local repipe pro.",
+"meta": "Repiping in Sarasota, FL: replace polybutylene, galvanized or pinholed copper with PEX or copper. Call (941) 393-1012 to reach a local repipe pro.",
 "h1": "Repiping in Sarasota, FL",
 "crumb": "Repiping", "trail": TR("Repiping", "repiping"),
 "lead": "Repeated leaks, polybutylene pipe or rusty water? A whole-house repipe replaces the supply lines for good. SRQ Leak Pros connects you with a local repipe pro.",
@@ -222,7 +222,7 @@ Local note: many homes built in [North Port](/locations/north-port/), [Venice](/
 # ------------------------------------------------------------------ 7
 {"type": "service", "slug": "sewer-line-repair", "url": "/services/sewer-line-repair/",
 "title": "Sewer Line Repair in Sarasota, FL | Camera & Lining",
-"meta": "Sewer line repair in Sarasota, FL: camera inspection, spot repair, lining or replacement of cracked laterals. Call (941) 541-0938 to reach a local pro.",
+"meta": "Sewer line repair in Sarasota, FL: camera inspection, spot repair, lining or replacement of cracked laterals. Call (941) 393-1012 to reach a local pro.",
 "h1": "Sewer Line Repair in Sarasota, FL",
 "crumb": "Sewer Line Repair", "trail": TR("Sewer Line Repair", "sewer-line-repair"),
 "lead": "Slow drains, sewage smell or a soggy spot in the yard can mean a broken sewer lateral. SRQ Leak Pros connects you with a local pro for camera inspection and sewer line repair.",
@@ -366,7 +366,7 @@ Local note: older neighborhoods in [Bradenton](/locations/bradenton/) and [Venic
 # ------------------------------------------------------------------ 8
 {"type": "service", "slug": "pool-leak-detection", "url": "/services/pool-leak-detection/",
 "title": "Pool Leak Detection in Sarasota, FL",
-"meta": "Pool leak detection in Sarasota, FL: bucket test, dye testing, pressure tests on lines and shell checks. Call (941) 541-0938 to reach a local pro.",
+"meta": "Pool leak detection in Sarasota, FL: bucket test, dye testing, pressure tests on lines and shell checks. Call (941) 393-1012 to reach a local pro.",
 "h1": "Pool Leak Detection in Sarasota, FL",
 "crumb": "Pool Leak Detection", "trail": TR("Pool Leak Detection", "pool-leak-detection"),
 "lead": "Is your pool losing more water than the Florida sun can explain? SRQ Leak Pros connects you with a local pro who tests the shell, fittings and buried pool plumbing to find the leak.",
