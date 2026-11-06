@@ -345,13 +345,24 @@ def add_figures(url, body):
         m = re.search(r'<h2[^>]*>' + re.escape(esc(heading)) + r'</h2>', body)
         if not m:
             raise SystemExit(f"figure heading not found on {url}: {heading}")
-        nxt = body.find("<h2", m.end())
-        nxt = len(body) if nxt < 0 else nxt
+        # Float the photo beside text when enough text follows it; otherwise use a compact side-by-side card.
+        nxt = body.find("<h2", m.end()); nxt = len(body) if nxt < 0 else nxt
+        def text_run(start):
+            stops = [body.find(t, start) for t in ('<div class="tw"', '<div class="cta-box"', '<table', '<div class="cards"', '<h2')]
+            end = min([s for s in stops if s >= 0] + [len(body)])
+            return len(re.sub(r"<[^>]+>", "", body[start:end]))
+        p_end = body.find("</p>", m.end())
+        cands = ([p_end + 4] if 0 <= p_end < nxt else []) + [m.end()]
+        at = next((c for c in cands if text_run(c) >= 900), None)
+        layout = "fig"
+        if at is None:
+            layout = "fig fig-row"
+            at = cands[0]
         src = f"/assets/img/pages/{name}"
-        fig = (f'<figure class="fig"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" '
-               f'sizes="(max-width: 900px) 100vw, 860px" width="1200" height="675" loading="lazy" decoding="async" '
+        fig = (f'<figure class="{layout}"><img src="{src}.webp" srcset="{src}-600.webp 600w, {src}.webp 1200w" '
+               f'sizes="(max-width: 899px) 92vw, 420px" width="1200" height="675" loading="lazy" decoding="async" '
                f'alt="{esc(alt)}"><figcaption>{esc(cap)} <span class="credit">Photo: <a href="{link}" target="_blank" rel="noopener">{esc(who)}</a> / Pexels</span></figcaption></figure>')
-        body = body[:nxt] + fig + body[nxt:]
+        body = body[:at] + fig + body[at:]
     return body
 
 def render(p):
