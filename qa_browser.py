@@ -28,6 +28,7 @@ with sync_playwright() as p:
         # Google Analytics is unreachable from the sandbox: serve an empty gtag.js and accept beacons
         ctx.route("https://www.googletagmanager.com/**", lambda r: r.fulfill(status=200, body="", headers={"content-type": "application/javascript"}))
         ctx.route(re.compile(r"https://.*(google-analytics|analytics\.google)\.com/.*"), lambda r: r.fulfill(status=204, body=""))
+        ctx.route(re.compile(r"https://(static\.)?cloudflareinsights\.com/.*"), lambda r: r.fulfill(status=204, body=""))
         for u in PAGES:
             pg = ctx.new_page()
             pg.on("console", lambda m, w=w: res["console"].append(f"{w}px {m.type}: {m.text}") if m.type in ("error", "warning") else None)

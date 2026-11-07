@@ -12,8 +12,8 @@ SITE = {
     "state_full": "Florida",
     "county": "Sarasota County",
     "lang": "en-US",
-    "today": "2026-11-06", "ga4": "G-P5V1J7ZCK8", "launch": "2026-11-04",
-    "today_human": "November 6, 2026",
+    "today": "2026-11-07", "ga4": "G-P5V1J7ZCK8", "launch": "2026-11-04",
+    "today_human": "November 7, 2026",
     "editorial": "SRQ Leak Pros Editorial",
     "theme": "#0B2545",
     # Owner asked for social icons with default platform links (to be replaced later).
