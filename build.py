@@ -318,7 +318,8 @@ def head_html(p, robots="index,follow"):
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{NAME}"><meta property="og:title" content="{attr(p["title"])}"><meta property="og:description" content="{attr(p["meta"])}"><meta property="og:url" content="{canon}"><meta property="og:image" content="{U}{img}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US">{extra}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{attr(p["title"])}"><meta name="twitter:description" content="{attr(p["meta"])}"><meta name="twitter:image" content="{U}{img}">
 <link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
-{preload}<style>{CSS_CRIT}</style>
+{preload}<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id={SITE["ga4"]}"></script>
+<style>{CSS_CRIT}</style>
 <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@graph": p["_schema"]}, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>'''
 

@@ -304,7 +304,9 @@ This policy explains how SRQ Leak Pros ("SRQ Leak Pros") handles information whe
 
 **When you call.** Calls may be routed through a call-tracking system that records the calling number, call time, duration, the page you called from and, where enabled, an audio recording of the call. Calls may be connected to an independent service provider, who will receive the details you share on the call.
 
-**Click events.** The site records an anonymous "call click" event in the page when a phone link is tapped. No analytics script is installed at launch. If analytics are added later, this policy will be updated first.
+**Site analytics.** The site uses Google Analytics 4, a service from Google LLC, to count visits and see which pages help people. It collects data such as pages viewed, time on page, approximate location (city level), device and browser type, and how you reached the site. Google Analytics 4 does not log or store full IP addresses. The site does not use Google Analytics advertising features or link your visit to your name.
+
+**Call clicks.** When you tap a phone number, the site sends an anonymous "call_click" event to Google Analytics with the page and the button you used. It does not include your phone number.
 
 ## Call recording
 
@@ -327,7 +329,9 @@ SRQ Leak Pros does not make telephone solicitations or send marketing texts to p
 
 ## Cookies
 
-The site does not set advertising or tracking cookies at launch. Cloudflare may set strictly necessary security cookies.
+Google Analytics sets first-party cookies, such as `_ga` and `_ga_<ID>`, to tell one visit from another. They last up to two years unless you delete them. The site does not set advertising cookies. Cloudflare may set strictly necessary security cookies.
+
+You can block or delete cookies in your browser settings. You can also opt out of Google Analytics on every site with the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout). Google explains [how it uses data from sites that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Data security and breach notice
 

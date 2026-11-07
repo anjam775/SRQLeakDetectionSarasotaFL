@@ -25,6 +25,9 @@ with sync_playwright() as p:
     br = p.chromium.launch(executable_path="/usr/bin/google-chrome", args=["--no-sandbox"])
     for w, hgt in [(360, 780), (768, 1024), (1280, 900)]:
         ctx = br.new_context(viewport={"width": w, "height": hgt})
+        # Google Analytics is unreachable from the sandbox: serve an empty gtag.js and accept beacons
+        ctx.route("https://www.googletagmanager.com/**", lambda r: r.fulfill(status=200, body="", headers={"content-type": "application/javascript"}))
+        ctx.route(re.compile(r"https://.*(google-analytics|analytics\.google)\.com/.*"), lambda r: r.fulfill(status=204, body=""))
         for u in PAGES:
             pg = ctx.new_page()
             pg.on("console", lambda m, w=w: res["console"].append(f"{w}px {m.type}: {m.text}") if m.type in ("error", "warning") else None)
